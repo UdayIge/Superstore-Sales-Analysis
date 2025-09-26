@@ -18,11 +18,15 @@ This project performs Exploratory Data Analysis (EDA), trains a Machine Learning
 - `outputs/` – Saved plots and snapshots (ignored in Git)
 - `models/` – Saved ML model (ignored in Git)
 
+## EDA flow
+
+<img width="1360" height="762" alt="Hero" src="./flowcharts/sales data analysis.png" />
+
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/superstore-analysis.git
-   cd superstore-analysis
+   git clone https://github.com/UdayIge/Superstore-Sales-Analysis.git
+   cd Superstore-Sales-Analysis
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
