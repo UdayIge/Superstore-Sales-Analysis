@@ -14,7 +14,8 @@ venv/
 *.idea/
 
 test.py
-# Data / Output
-Superstore.csv
-outputs/
-models/
+
+# # Data / Output
+# Superstore.csv
+# outputs/
+# models/
