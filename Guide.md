@@ -1,10 +1,12 @@
-Break down of **entire project workflow** step by step so you fully understand how the **EDA + Model pipeline** and the **Streamlit dashboard** work together. I’ll explain it in a structured way, covering data, preprocessing, analysis, model, and visualization.
+## Entire project workflow
 
----
+Entire project workflow step by step so you fully understand how the **EDA + Model pipeline** and the **Streamlit dashboard** work together. I’ll explain it in a structured way, covering data, preprocessing, analysis, model, and visualization.
+
+
 
 ## **1️⃣ Dataset**
 
-* **Source:** Kaggle “Superstore Sales Dataset”
+* **Source:** Kaggle **Superstore Sales Dataset**
   [Link to Kaggle dataset](https://www.kaggle.com/datasets/juhi1994/superstore)
 
 * **Content:** Sales transactions with columns like:
