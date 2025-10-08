@@ -17,6 +17,17 @@ This project provides end-to-end analysis of retail sales data, featuring:
 - **Machine Learning model** for profit prediction using Random Forest
 - **Interactive Streamlit dashboard** with real-time filtering and analytics
 
+## 🧭 Project Stages
+
+| Stage | Description |
+| --- | --- |
+| Data Collection | Downloaded dataset from Kaggle and loaded using Pandas. |
+| Data Preprocessing | Handled missing values, converted dates, removed duplicates, and engineered new features |
+| Exploratory Data Analysis | Visualized data distributions, correlations, and trends using Matplotlib and Seaborn |
+| Model Training | Built a Random Forest Regressor to predict profit based on sales features. |
+| Model Evaluation | Evaluated model using MAE and R² metrics with 80-20 train-test split. |
+| Dashboard Development | Developed an interactive Streamlit dashboard using Plotly for data visualization. |
+
 ## ✨ Features
 
 ### 📈 Data Analysis
@@ -123,16 +134,22 @@ Open your browser to `http://localhost:8501` to access the dashboard.
 - **Average Discount**: Mean discount percentage
 - **Total Orders**: Count of orders
 
+<img src="./dashboard/Dashboard (1).png" alt="Dashboard Features" width="100%"/>
+
 ### Interactive Visualizations
 - **Sales & Profit Trends**: Time series analysis over months
 - **Regional & Category Analysis**: Bar charts showing sales distribution
 - **Top Products**: Horizontal bar chart of most profitable products
 - **Data Preview**: Expandable table of filtered data
 
+<img src="./dashboard/Dashboard (2).png" alt="Dashboard Features" width="100%"/>
+
 ### Filtering Options
 - **Year**: Multi-select year filter (default: all years)
 - **Region**: Multi-select region filter (default: all regions)
 - **Category**: Multi-select category filter (default: all categories)
+
+<img src="./dashboard/Dashboard (3).png" alt="Dashboard Features" width="100%"/>
 
 ## 🔬 Machine Learning Model
 
